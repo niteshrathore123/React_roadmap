@@ -5,7 +5,7 @@ const Counter=()=>{
     useEffect(()=>{
         // Code to run when component is mounted or updated
         // This is equivalent to componentDidMount and componentDidUpdate
-        console.log("component Mounting using useEffect")
+        console.log("component Mounting using useEffect");
         return()=>{
             console.log("component unmounting using useEffect")
             // Code to run before component is unmounted
